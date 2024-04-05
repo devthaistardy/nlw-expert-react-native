@@ -26,7 +26,7 @@ export default function Home() {
     const sectionIndex = CATEGORIES.findIndex(
       (category) => category === selectedCategory,
     );
-
+// hello world!
     if (sectionListRef.current) {
       sectionListRef.current.scrollToLocation({
         animated: true,
