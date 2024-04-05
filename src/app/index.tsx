@@ -27,6 +27,7 @@ export default function Home() {
       (category) => category === selectedCategory,
     );
 // hello world!
+    //outro comentário!
     if (sectionListRef.current) {
       sectionListRef.current.scrollToLocation({
         animated: true,
